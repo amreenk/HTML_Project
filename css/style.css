@@ -1,0 +1,109 @@
+/*Add CSS styling below*/
+article, aside, figcaption, figure, footer, header, hgroup, nav, section {
+	display: block;
+}
+
+body {
+	font-family: verdana;
+	padding: 0px;
+	border: 0px;
+	margin: 0px 0px;	
+}
+
+article {
+	width: 800px;
+	background-color: #006363;
+	margin: 0px 0px;
+}
+
+header {
+	text-align: center;
+	height: 100px;
+	width: 800px;
+	background: #009999;
+	color: white;
+	font-size: 20px;
+	margin: 0px;
+	padding: 0px;
+}
+
+h1 {
+ 	margin: 0px;
+ 	font-size: 32px;
+ }
+
+#h2 {
+	color: white;
+	background: #009999;
+	margin: 0px;
+	padding: 0px;
+	font-size: 20px;
+	line-height: 1em;
+	 
+}
+/*navigation box*/
+nav {
+	float: left;
+	height: 260px;
+	width: 150px;
+	background: #FFD073;
+	margin-right: 20px;
+	text-align: center; 
+	line-height: 3.5em;
+	font-size: 14px;
+	border: solid black 1px;
+}
+
+/*changes color to links in nav*/
+a {
+	color: #A64B00;
+}
+
+/*section styling*/
+section {
+	background: #006363;
+	margin: 0px 0px;
+	padding-bottom: 10px;
+	padding-top: 0px;	
+}
+
+/*heading of the page styling*/
+h2 {
+	text-align: center;
+	color: #FFAA00;
+	margin: 0px;
+	padding-top: 16px;
+	padding-bottom: 16px;
+	font-size: 20px;
+}
+
+/*paragraphs styling*/
+p {
+	color: white;
+	font-size: 14px;
+	line-height: 18px;
+	padding: 10px;
+	margin: 0px;
+}
+
+/*video styling*/
+video {
+	float: left;
+	clear: left;
+	margin-top: 16px;
+	margin-right: 20px;
+	margin-bottom: 16px;
+	margin-left: 10px;
+}
+
+/*footer box*/
+footer {
+	text-align: center;
+	background: #FFD073;
+	height: 60px;
+	width: 800px;
+	color: #A64B00;
+	font-size: 12px;
+	margin: 0px;
+	clear: both;
+}
